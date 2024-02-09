@@ -73,8 +73,6 @@
       font-weight: 700;
     }
     .soldout {
-      // prevent the button from appearing clickable
-      pointer-events: none;
       display: inline;
       width: 140px;
       margin: 1em 0;
