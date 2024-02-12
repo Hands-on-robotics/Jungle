@@ -2,8 +2,6 @@
 <h1>Admin &raquo; Dashboard</h1>
 </header>
 
-# Link to the product admin list/index pages when displaying the counts.
-
 <table class="table table-striped">
   <thead>
     <tr>
@@ -17,7 +15,7 @@
       <td><%= @products_count %></td>
     </tr>
     <tr>
-      <td>Categories</td>
+      <td><%= link_to 'Categories', admin_categories_path %></td>
       <td><%= @categories_count %></td>
     </tr>
   </tbody>
